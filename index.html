@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Student Information Card</h1>
+
+    <div class="main-container">
+        <div class="form-container">
+            <label for="name">Student Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="roll-number">Roll Number:</label>
+            <input type="text" id="roll-number" placeholder="Enter your roll No">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <label for="mobile-number">Mobile Number:</label>
+            <input type="text" id="mobile-number" placeholder="Enter your mobile No">
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" placeholder="Enter your age">
+
+            <label for="Gender">Gender:</label>
+            <div class="redio-group">
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+            </div>
+
+            <label for="course">Course:</label>
+            <div class="redio-group">
+                <label><input type="checkbox" name="course" value="Computer Science"> Computer Science</label>
+                <label><input type="checkbox" name="course" value="Information Technology"> Information Technology</label>
+            </div>
+
+            <label for="marks">Marks:</label>
+            <span id="marks-value">50</span><br>
+            <input type="range" id="marks" min="0" max="100" value="50"><br>
+
+            <label for="photo">Upload Photo:</label>
+            <input type="file" id="photo" accept="image/*"><br><br>
+            <button id="submit-btn" type="button">Generate card</button>
+        </div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>
