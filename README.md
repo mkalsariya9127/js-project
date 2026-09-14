@@ -28,4 +28,4 @@ Open `index.html` or `output.html` in any web browser.
 ---
 
 ## 👤 Author
-- **Milan Klasariya** - [GitHub Profile](https://github.com/mkalsariya9127)
+- **Milan Kalsariya** - [GitHub Profile](https://github.com/mkalsariya9127)
