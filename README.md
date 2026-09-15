@@ -4,6 +4,11 @@ A collection of interactive frontend web components and mini-applications create
 
 ---
 
+## 🚀 Live Demo & Preview
+👉 **[View Live Project on Vercel](https://java-csript-project.vercel.app)**
+
+---
+
 ## ✨ Highlights
 - **DOM Manipulation:** Real-time element creation, styling, and event listeners.
 - **Form & Input Validation:** Interactive form handlers with instant user feedback.
@@ -19,7 +24,7 @@ A collection of interactive frontend web components and mini-applications create
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Getting Started Locally
 ```bash
 git clone https://github.com/mkalsariya9127/js-project.git
 ```
